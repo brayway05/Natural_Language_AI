@@ -4,12 +4,7 @@ from db import create_table, create_connection
 from schema import *
 
 def insert_to_doctors(conn):
-    """
-    Create a new project into the projects table
-    :param conn:
-    :param project:
-    :return: project id
-    """
+
     sql = """
         INSERT INTO Doctors VALUES
             (1, 'John', 'Smith', 'Cardiologist', '555-123-4567'),
