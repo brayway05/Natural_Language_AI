@@ -11,7 +11,7 @@ DATABASE = "./pythonsqlite.db"
 def main(conn, question):
     # Load your API key from an environment variable or secret management service
     # openai.api_key = os.getenv(auth['api_key'])
-    openai.api_key = "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"
+    openai.api_key = ""
     print(f"Question: {question}")
 
     prompt = f"""
