@@ -14,7 +14,7 @@ python3 build.py
 ```
 This command creates the file `pythonssqlite.db`
 
-Finally, to execute query run this command:
+Finally, to execute query run this command (deleted files related to this command -> check git commits):
 ```
 python3 query.py --query "{your query goes here}"
 ```

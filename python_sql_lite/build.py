@@ -1,5 +1,3 @@
-import os
-
 from db import create_table, create_connection
 from schema import *
 

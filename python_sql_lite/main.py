@@ -1,6 +1,5 @@
 import argparse
 import openai
-import json
 
 from query import select_from_table
 from schema import get_schema
@@ -9,8 +8,6 @@ from db import create_connection
 DATABASE = "./pythonsqlite.db"
 
 def main(conn, question):
-    # Load your API key from an environment variable or secret management service
-    # openai.api_key = os.getenv(auth['api_key'])
     openai.api_key = ""
     print(f"Question: {question}")
 
